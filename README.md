@@ -1,21 +1,35 @@
 
+#include iostream 
 
+#include fstream
 
-#include <iostream>
-#include <fstream>
-#include <cstdlib>
-#include <ctime>
-#include <string>
+#include cstdlib
+
+#include ctime
+
+#include string
+
 using namespace std;
 
+
 //function prototyping
+
 string computerchoice();
+
 string get_user_response();
+
 void compare_choices(int, int);
 
 //MAIN FUNCTION
+
+
 int main()
 {
+
+
+
+
+
 	int compchoice, userchoice;
 	string displaycompchoice;
 	displaycompchoice = computerchoice(compchoice); //number generated and computer symbol saved
@@ -35,6 +49,12 @@ int main()
 
 string computerchoice(int &computernumber) //computer picks its move
 {
+
+
+
+
+
+
 	int computermove;
 	string computersymbol;
 	srand((unsigned)time(0));
@@ -61,6 +81,9 @@ string computerchoice(int &computernumber) //computer picks its move
 
 string get_user_response(int &usernumber) // let user pick his/her move
 {
+
+
+
 	int usermove;
 	string usersymbol;
 	cout << "Select your move by entering a number 1-5" << endl;
