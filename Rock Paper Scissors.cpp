@@ -1,15 +1,4 @@
-/*
-* Author: Varika Pinnam
-* NetID: vxp171430
-* Date: December 6, 2017
-*
-* Course: CS-1336
-* Section: 008
-* Name: Final Programming Assignment
-*
-* Description: This program lets the user play the game of "Rock, Paper, Scissors, Lizard, Spock" against the computer.
-*
-*/
+
 
 #include <iostream>
 #include <fstream>
